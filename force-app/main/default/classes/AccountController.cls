@@ -7,10 +7,6 @@
 **/
 public with sharing class AccountController {
     public static List<Account> getAccount() {
-           
-
-
-        
-        return [Select id from account limit 10];
+       return [Select id from account limit 10];
     }
 }
